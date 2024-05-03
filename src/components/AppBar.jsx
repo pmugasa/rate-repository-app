@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   contentContainer: {
     flexDirection: 'row',
     alignItems: 'baseline',
-    gap: 10,
+    gap: 16,
     justifyContent: 'space-between'
   }
   // ...
@@ -29,7 +29,7 @@ const AppBar = () => {
         </Link>
 
         <Link to='/sign-in'>
-          <Text style={{ color: 'white', fontWeight: '500', fontSize: 16 }}>
+          <Text style={{ color: 'white', fontWeight: '700', fontSize: 16 }}>
             Sign in
           </Text>
         </Link>
