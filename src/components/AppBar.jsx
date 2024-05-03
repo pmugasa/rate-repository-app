@@ -23,17 +23,13 @@ const AppBar = () => {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.contentContainer} horizontal>
         <Link to='/'>
-          <Text
-            style={{ color: 'white' }}
-            fontSize='subheading'
-            fontWeight='bold'
-          >
+          <Text style={{ color: 'white', fontSize: 16, fontWeight: '700' }}>
             Repositories
           </Text>
         </Link>
 
         <Link to='/sign-in'>
-          <Text style={{ color: '#0366d6', fontWeight: '500', fontSize: 20 }}>
+          <Text style={{ color: 'white', fontWeight: '500', fontSize: 16 }}>
             Sign in
           </Text>
         </Link>
